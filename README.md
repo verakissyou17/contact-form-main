@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here: 👉](https://www.frontendmentor.io/solutions/contact-form-with-vanilla-js-and-pure-css-0Q1174_Prg)
+- Live Site URL: [Live site URL here: 👉](https://verakissyou17.github.io/contact-form-main/)
 
 ## My process
 
