@@ -150,7 +150,7 @@ main {
   padding: 0.5em;
 }
 
-.radio-buttons-group h3 {
+.radio-buttons-group h2 {
   font-size: 0.95rem;
   font-weight: var(--karla-700);
   color: var(--grey-500);
