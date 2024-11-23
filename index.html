@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <section class="message-succes">
+      <div class="first-line">
+        <img src="./assets/images/icon-success-check.svg" alt="succes-icon" />
+        <h1>Message Sent!</h1>
+      </div>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </section>
+  </header>
+
+  <main>
+    <form action="#" class="my-form">
+      <h2 class="title">Contact Us</h2>
+
+      <div class="form-group names-group">
+        <div class="first-name--group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name"/>
+          <span class="error-message" id="first-name-error"></span>
+        </div>
+        <div class="last-name--group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="last-name"/>
+          <span class="error-message" id="last-name-error"></span>
+        </div>
+      </div>
+
+      <div class="form-group email-group">
+        <label for="email-address">Email Address</label>
+        <input type="email" id="email-address" name="email-address"/>
+        <span class="error-message" id="email-address-error"></span>
+      </div>
+
+      <div class="form-group radio-buttons-group">
+        <h3>Query Type</h3>
+        <div class="radio-buttons">
+          <div class="radio-buttons--container">
+            <div class="radio-group">
+              <input type="radio" name="general-button" id="general-button" />
+              <label for="general-button">General Enquiry</label>
+            </div>
+          </div>
+
+          <div class="radio-buttons--container">
+            <div class="radio-group">
+              <input type="radio" name="support-button" id="support-button" />
+              <label for="support-button">Support Request</label>
+            </div>
+          </div>
+        </div>
+        <span class="error-message" id="query-message"></span>
+      </div>
+
+      <div class="form-group message-group">
+        <label for="message">Message</label>
+        <textarea id="message"  name="message"></textarea>
+        <span class="error-message" id="message-error"></span>
+      </div>
+
+      <div class="form-group conditions-group">
+        <input type="checkbox" id="terms-conditions" name="terms-conditions"/>
+        <label for="terms-conditions">I consent to being contacted by the team</label>
+      </div>
+      <span class="error-message" id="terms-conditions-error"></span>
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
+  </main>
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Vera</a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
