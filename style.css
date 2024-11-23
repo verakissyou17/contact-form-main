@@ -40,7 +40,7 @@ label {
   display: block;
   font-size: 0.95rem;
   font-weight: var(--karla-700);
-  color: var(--grey-900);
+  color: var(--grey-500);
   margin-bottom: 0.5em;
 }
 
@@ -152,7 +152,7 @@ main {
 .radio-buttons-group h3 {
   font-size: 0.95rem;
   font-weight: var(--karla-700);
-  color: var(--grey-900);
+  color: var(--grey-500);
   margin-bottom: 1em;
 }
 
@@ -225,7 +225,7 @@ textarea {
 .conditions-group label {
   margin-bottom: 0;
   line-height: 1.5;
-  color: var(--grey-900);
+  color: var(--grey-500);
 }
 
 .conditions-group input[type='checkbox'] {
