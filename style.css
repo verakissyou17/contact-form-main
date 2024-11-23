@@ -97,7 +97,7 @@ header.success {
   color: var(--white);
 }
 
-header h1 {
+header h2 {
   font-size: 1.5rem;
   font-weight: var(--karla-700);
 }
